@@ -1,12 +1,22 @@
-# Nerfies
+# Video2BM Project Page
 
-This is the repository that contains source code for the video2bm page project.
+Welcome to the **Video2BM** Project Page repository – the source code for the official Video2BM webpage. This is the repository that contains the source code for the page project.
 
-If you find it useful for your work please cite:
+Video2BM (Video‑to‑Bimanual Manipulation) leverages large‑scale human and robot video demonstrations to enable scalable cross‑embodiment learning of bimanual manipulation policies.
+
+> **Video2BM** (Video‑to‑Bimanual Manipulation) leverages large‑scale human *and* robot video demonstrations to enable scalable cross‑embodiment learning of bimanual manipulation policies.
+
+---
+
+## 🌟 Key Features
+- **Hybrid Training Pipeline**  •  Seamlessly integrates human & robot videos.
+- **Spatial‑Temporal Alignment (STA) Module**  •  Bridges embodiment gaps.
+  
+If you find it useful for your work, please cite:
 ```
 ```
 
-Source code is built on:
+The website source code is built on:
 ```
 @article{park2021nerfies
   author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
