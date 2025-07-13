@@ -6,7 +6,7 @@
         content="Can Leveraging Human Videos Enhance Performance and Generalizability in Bimanual Manipulation?">
   <meta name="keywords" content="Bimanual Manipulation, Egocentric Human Video">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Video2BM</title>
+  <title>H2R-BM</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -87,7 +87,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Video2BM: Can Leveraging Human Videos Enhance Performance and Generalizability in Bimanual Manipulation?</h1>
+          <h1 class="title is-1 publication-title">H2R-BM: Can Leveraging Human Videos Enhance Performance and Generalizability in Bimanual Manipulation?</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="#">Xiaoshuai Hao</a><sup>1</sup>,</span>
@@ -165,14 +165,14 @@
     <div class="columns is-centered">
       <div class="container">
         <div class="content has-text-centered">
-          <h2 class="title is-3"><strong>Motivation of Video2BM</strong></h2>
+          <h2 class="title is-3"><strong>Motivation of H2R-BM</strong></h2>
 
           <div class="box m-5">
             <div class="content has-text-centered">
               <figure>
                   <img src="./static/images/teaser_01.png" alt="Teaser" style="width:90%;">
                 <figcaption>
-                  Acquiring robot videos via teleoperation is costly and inefficient, whereas human videos from wearable devices provide a cheaper, more efficient alternative. Video2BM leverages human videos to minimize dependence on robot data for bimanual manipulation, reducing data collection costs.
+                  Acquiring robot videos via teleoperation is costly and inefficient, whereas human videos from wearable devices provide a cheaper, more efficient alternative. H2R-BM leverages human videos to minimize dependence on robot data for bimanual manipulation, reducing data collection costs.
                 </figcaption>
               </figure>
             </div>
@@ -189,14 +189,14 @@
         <div class="content has-text-justified">
           <p>
             Bimanual manipulation (BM) is a critical challenge in robotic learning, requiring precise coordination of two arms for complex tasks. However, training robots for BM relies heavily on costly and time-consuming robot demonstration data. In contrast, human videos, being more cost-effective and easier to collect, have gained significant attention. This paper explores whether leveraging human videos can enhance performance and generalizability in BM. 
-            We propose <i><b>Video2BM</b></i>, a framework that uses human demonstration videos as a scalable alternative to robot data. 
-            By transferring knowledge from human to robot domains, Video2BM reduces reliance on expensive robot data while maintaining task performance. Central to our approach is the Spatial-Temporal Alignment (STA) module, which ensures consistency between human and robot demonstrations. Video2BM not only lowers the barrier to robotic learning but also advances the development of versatile and adaptive robotic systems.
-            Extensive experiments show that <i><b>Video2BM</b></i> offers three key advantages:
+            We propose <i><b>H2R-BM</b></i>, a framework that uses human demonstration videos as a scalable alternative to robot data. 
+            By transferring knowledge from human to robot domains, H2R-BM reduces reliance on expensive robot data while maintaining task performance. Central to our approach is the Spatial-Temporal Alignment (STA) module, which ensures consistency between human and robot demonstrations. H2R-BM not only lowers the barrier to robotic learning but also advances the development of versatile and adaptive robotic systems.
+            Extensive experiments show that <i><b>H2R-BM</b></i> offers three key advantages:
             (1) <i><b>Performance Improvement</b></i>: 
             Human videos significantly boost performance across diverse long-horizon BM tasks at varying difficulty levels.
             (2) <i><b>Enhanced Generalization</b></i>: Human videos improve generalization capabilities, including object, viewpoint, and positional generalization.
-            (3) <i><b>Human Video Scaling Law</b></i>: Video2BM effectively leverages the efficiency of human data collection, exhibiting a pronounced scaling effect that substantially boosts task performance beyond what is achievable with robot data alone.
-            <i><b>Video2BM</b></i> introduces a novel paradigm in robotic learning, paving the way for future bimanual manipulation research.
+            (3) <i><b>Human Video Scaling Law</b></i>: H2R-BM effectively leverages the efficiency of human data collection, exhibiting a pronounced scaling effect that substantially boosts task performance beyond what is achievable with robot data alone.
+            <i><b>H2R-BM</b></i> introduces a novel paradigm in robotic learning, paving the way for future bimanual manipulation research.
           </p>
         </div>
       </div>
@@ -216,14 +216,14 @@
                 <source src="./static/videos/success_example.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
-              <p><strong>With Video2BM</strong></p>
+              <p><strong>With H2R-BM</strong></p>
             </div>
             <div class="column is-half">
               <video controls autoplay muted loop playsinline style="width:100%; max-width:400px;">
                 <source src="./static/videos/fail_example.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
-              <p><strong>Without Video2BM</strong></p>
+              <p><strong>Without H2R-BM</strong></p>
             </div>
           </div>
         </div>
@@ -235,14 +235,14 @@
                 <source src="./static/videos/groceries_success.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
-              <p><strong>With Video2BM</strong></p>
+              <p><strong>With H2R-BM</strong></p>
             </div>
             <div class="column is-half">
               <video controls autoplay muted loop playsinline style="width:100%; max-width:400px;">
                 <source src="./static/videos/groceries_failure.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
-              <p><strong>Without Video2BM</strong></p>
+              <p><strong>Without H2R-BM</strong></p>
             </div>
           </div>
         </div>
@@ -255,14 +255,14 @@
     <div class="columns is-centered">
       <div class="container">
         <div class="content has-text-centered">
-<!--           <h2 class="title is-3"><strong>Overview of Video2BM</strong></h2> -->
+<!--           <h2 class="title is-3"><strong>Overview of H2R-BM</strong></h2> -->
 
           <div class="box m-5">
             <div class="content has-text-centered">
               <figure>
                 <img src="./static/images/framework.png" alt="Framework" style="width:90%;">
                 <figcaption>
-                  <strong>Overview of Video2BM.</strong> Visual observations and embodiment proprioception from both human and robot demonstrations are processed by the <i>Spatial-Temporal Alignment (STA)</i> module and a shared visuomotor backbone. The resulting feature representations are utilized in two ways: (1) both human and robot features are fed to the <i>12 DoF Trajectory Head</i> for general skill learning, and (2) only robot features are fed to the <i>14 DoF Action Head</i> for robotic control learning.
+                  <strong>Overview of H2R-BM.</strong> Visual observations and embodiment proprioception from both human and robot demonstrations are processed by the <i>Spatial-Temporal Alignment (STA)</i> module and a shared visuomotor backbone. The resulting feature representations are utilized in two ways: (1) both human and robot features are fed to the <i>12 DoF Trajectory Head</i> for general skill learning, and (2) only robot features are fed to the <i>14 DoF Action Head</i> for robotic control learning.
                 </figcaption>
               </figure>
             </div>
