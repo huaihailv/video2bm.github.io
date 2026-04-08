@@ -14,6 +14,14 @@ Video2BM (Video‑to‑Bimanual Manipulation) leverages large‑scale human and 
   
 If you find it useful for your work, please cite:
 ```
+@article{hao2026h2r,
+  title={H2R-BM: Can Leveraging Human Videos Enhance Performance and Generalizability in Robotic Bimanual Manipulation?},
+  author={Hao, Xiaoshuai and Lyu, Huaihai and Zhang, Lingfeng and Liu, Rui and Wu, Dayan and Zhang, Jing and Chen, Long},
+  journal={Pattern Recognition},
+  pages={113637},
+  year={2026},
+  publisher={Elsevier}
+}
 ```
 
 The website source code is built on:
